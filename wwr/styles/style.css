@@ -28,11 +28,11 @@ main section {
 
 
 body {
-    background-color: #984447;
+    background-color: #0F5257;
 }
 
 header {
-    background-color: #0F5257;
+    background-color: #FCAA67;
 }
 
 nav a:hover {
@@ -41,8 +41,8 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #C7CCDB;
-    color: black;
+    background-color: #984447;
+    color: #FCAA67;
     text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ footer {
 }
 
 footer a {
-    color: black;
+    color: #C7CCDB;
     text-decoration: none;
 }
 
@@ -78,15 +78,15 @@ footer p a:hover {
 }
 
 .home-title {
-    color: black;
+    color: #C7CCDB;
 }
 
 h4 {
-    color: black;
+    color: #FCAA67;
 }
 
 .msg h2 {
-    color: black;
+    color: #C7CCDB;
 }
 
 .msg p {
