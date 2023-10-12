@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Montserrat&family=Ubuntu:wght@300&display=swap');
+
+
+
 content {
 max-width: 1600px;
 margin: 0 auto;
@@ -7,6 +11,7 @@ nav a {
 text-align: center;
 color: black;
 text-decoration: none;
+padding: 35px;
 }
 
 #hero-message h1, #hero-message h4{
@@ -29,10 +34,19 @@ main section {
 
 body {
     background-color: #0F5257;
+    font-family: Ubuntu, Montserrat;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: #FCAA67;
+    font-family: Monterrat, DM Sans;
 }
 
 nav a:hover {
@@ -44,6 +58,18 @@ nav a:hover {
     background-color: #984447;
     color: #FCAA67;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #FCAA67;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover {
@@ -53,6 +79,8 @@ nav a:hover {
 
 .msg {
     background-color: #C7CCDB;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
@@ -71,6 +99,12 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
+    margin-top: 200px;
 }
 
 footer p a:hover {
@@ -79,6 +113,9 @@ footer p a:hover {
 
 .home-title {
     color: #C7CCDB;
+    font-family: DM Sans, Ubuntu;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -91,6 +128,8 @@ h4 {
 
 .msg p {
     color: black;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 .logo {
@@ -99,8 +138,17 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card .camping-card .rapids-card {
+    margin: 200px 0;
 }
