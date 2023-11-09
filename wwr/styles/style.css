@@ -185,7 +185,7 @@ footer p {
 
 footer .social img {
     padding-top: 15px;
-    margin-top: 200px;
+    
 }
 
 footer p a:hover {
@@ -242,6 +242,27 @@ h4 {
 
 .card-img, .mountains {
     width: 100%;
+}
+
+
+
+/*
+Following here will be the css for the subpage for FAQ's
+*/
+
+#faqs {
+    margin-top: 100px;
+    grid-column: 4/8;
+    align-items: center;
+    color: #FCAA67;
+    
+}
+
+.faq-item .answer{
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #984447;
+    color: #C7CCDB;
 }
 
 
