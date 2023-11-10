@@ -160,7 +160,7 @@ main section img {
 }
 
 footer {
-    background-color: #0F5257;
+    background-color: #6f7364;
     color: #FCAA67;
     padding: 25px 50px;
     margin-top: 200px;
@@ -261,8 +261,12 @@ Following here will be the css for the subpage for FAQ's
 .faq-item .answer{
     text-align: left;
     margin-bottom: 20px;
-    background-color: #984447;
     color: #C7CCDB;
+}
+
+#faq-img {
+    width: 100%;
+    max-height: 500px;
 }
 
 
